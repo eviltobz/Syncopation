@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+
+  <channel>
+    <ttl>30</ttl>
+    <title>.NET Rocks!</title>
+    <link>http://www.dotnetrocks.com</link>
+    <language>en-us</language>
+    <description>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</description>
+    <copyright>Copyright &#xA9; 2002-2018 by Pwop Productions</copyright>
+    <managingEditor>carl@franklins.net (Carl Franklin) (Carl Franklin)</managingEditor>
+    <webMaster>carl@franklins.net (Carl Franklin) (Carl Franklin)</webMaster>
+    <rating>PG</rating>
+    <pubDate>Mon, 15 Feb 2016 00:00:00 EST</pubDate>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 EST</lastBuildDate>
+    <cloud domain="http://www.dotnetrocks.com" port="80" path="/RPC2" registerProcedure="pingMe" protocol="soap"> </cloud>
+    <atom:link href="http://www.pwop.com/feed.aspx?show=dotnetrocks&#x26;filetype=master" rel="self" type="application/rss+xml" />
+    <image>
+      <url>http://www.pwop.com/itunes_dnr2.jpg</url>
+      <title>.NET Rocks!</title>
+      <link>http://www.dotnetrocks.com</link>
+      <width>144</width>
+      <height>300</height>
+      <description>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</description>
+    </image>
+    <category>Programming</category>
+    <category>Talk</category>
+    <category>VB.NET</category>
+    <category>ASP.NET</category>
+    <category>Podcast</category>
+
+    <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:author>Carl Franklin</itunes:author>
+    <itunes:summary>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Carl Franklin</itunes:name>
+      <itunes:email>carl@franklins.net (Carl Franklin)</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="http://www.pwop.com/itunes_dnr2.jpg" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+    </itunes:category>
+    <itunes:category text="Technology">
+      <itunes:category text="Gadgets"/>
+    </itunes:category>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+    </itunes:category>
+
+
+
+    <item>
+      <title>Software Extensibility using Serverless Tech with Glenn Block</title>
+      <link>http://www.dotnetrocks.com/default.aspx?ShowNum=1561</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 EDT</pubDate>
+      <description>Serverless technology can extend your applications! Carl and Richard talk to Glenn Block about his work at Auth0 and building out WebHooks. Glenn talks about taking WebHooks to the next level with Extend, providing a SaaS offering for extensibility into other SaaS applications. This leads to a conversation about the architecture of extensibility in the cloud - rather than building a ton of features, let your customers extend your software the way they want!</description>
+      <source url="http://www.dotnetrocks.com/default.aspx?ShowNum=1561">.NET Rocks!</source>
+      <guid isPermaLink="true">http://www.dotnetrocks.com/default.aspx?ShowNum=1561</guid>
+      <itunes:author>Carl Franklin</itunes:author>
+      <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
+      <itunes:summary>Serverless technology can extend your applications! Carl and Richard talk to Glenn Block about his work at Auth0 and building out WebHooks. Glenn talks about taking WebHooks to the next level with Extend, providing a SaaS offering for extensibility into other SaaS applications. This leads to a conversation about the architecture of extensibility in the cloud - rather than building a ton of features, let your customers extend your software the way they want!</itunes:summary>
+      <enclosure url="https://traffic.libsyn.com/dotnetrocks/dotnetrocks_1561_serverless_extensibility.mp3" length="70273659" type="audio/mp3" />
+
+      <itunes:duration>00:55:00</itunes:duration>
+      <itunes:keywords>540238</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Writing Visual Studio Extensions with Mads Kristensen</title>
+      <link>http://www.dotnetrocks.com/default.aspx?ShowNum=1560</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 EDT</pubDate>
+      <description>Want to extend Visual Studio? Carl and Richard talk to Mads Kristensen about what its like to build Visual Studio extensions - and how he's now responsible for helping others build extensions too! Mads is the person behind Web Essentials, which used to be a big stand-alone download. Today it's a bunch of Visual Studio extensions. Today Mads is a program manager for Visual Studio extensions, and wants to help YOU be successful at building them too!</description>
+      <source url="http://www.dotnetrocks.com/default.aspx?ShowNum=1560">.NET Rocks!</source>
+      <guid isPermaLink="true">http://www.dotnetrocks.com/default.aspx?ShowNum=1560</guid>
+      <itunes:author>Carl Franklin</itunes:author>
+      <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
+      <itunes:summary>Want to extend Visual Studio? Carl and Richard talk to Mads Kristensen about what its like to build Visual Studio extensions - and how he's now responsible for helping others build extensions too! Mads is the person behind Web Essentials, which used to be a big stand-alone download. Today it's a bunch of Visual Studio extensions. Today Mads is a program manager for Visual Studio extensions, and wants to help YOU be successful at building them too!</itunes:summary>
+      <enclosure url="https://traffic.libsyn.com/dotnetrocks/dotnetrocks_1560_visualstudioextensions.mp3" length="92919645" type="audio/mp3" />
+
+      <itunes:duration>01:04:00</itunes:duration>
+      <itunes:keywords>540238</itunes:keywords>
+    </item>
+
+
+    <item>
+      <title>Pat Hynds</title>
+      <link>http://www.dotnetrocks.com/default.aspx?ShowNum=1</link>
+      <pubDate>Fri, 30 Aug 2002 00:00:00 EDT</pubDate>
+      <description>Look out! Its .NET Rocks! In this, the premiere episode, Carl interviews Pat Hynds from Critical Sites, a Sun Partner, IBM Partner, and Microsoft Partner. He shares his insights into .NET and provides real world stories of development in J2EE and Visual Studio.NET, and compares the results. </description>
+      <source url="http://www.dotnetrocks.com/default.aspx?ShowNum=1">.NET Rocks!</source>
+      <guid isPermaLink="true">http://www.dotnetrocks.com/default.aspx?ShowNum=1</guid>
+      <itunes:author>Carl Franklin</itunes:author>
+      <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
+      <itunes:summary>Look out! Its .NET Rocks! In this, the premiere episode, Carl interviews Pat Hynds from Critical Sites, a Sun Partner, IBM Partner, and Microsoft Partner. He shares his insights into .NET and provides real world stories of development in J2EE and Visual Studio.NET, and compares the results. </itunes:summary>
+      <enclosure url="https://traffic.libsyn.com/dotnetrocks/dotnetrocks_0001_pat_hynds.mp3" length="34734639" type="audio/mp3" />
+
+      <itunes:duration>00:48:00</itunes:duration>
+      <itunes:keywords>540238</itunes:keywords>
+    </item>
+
+
+  </channel>
+</rss>
+
