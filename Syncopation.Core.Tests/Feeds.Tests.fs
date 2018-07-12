@@ -4,13 +4,12 @@ open FsUnitTyped
 open NUnit.Framework
 open Syncopation.Core
 
-(*
-module Say =
-    let hello name =
-        printfn "Hello %s" name
-*)
 
-[<Test>]
-let GoBoom () =
-    Feeds.DoAThing()
+[<TestCase("SampleFeeds\comcompod.xml")>]
+[<TestCase("SampleFeeds\dnr.xml")>]
+[<TestCase("..\..\..\..\Syncopation.Core\SampleFeeds\MasterSample.xml")>]
+let ParseSampleFeeds (source: string) =
+    //let feed = Feeds.Rss.Load source
+    Feeds.DoAThing source
     Assert.Fail("boom")
+

@@ -13,10 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="SampleFeeds\comcompod.xml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SampleFeeds\dnr.xml">
+    <Content Include="SampleFeeds\MasterSample.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

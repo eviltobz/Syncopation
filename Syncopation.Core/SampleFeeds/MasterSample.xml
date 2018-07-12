@@ -3,25 +3,26 @@
 
   <channel>
     <ttl>30</ttl>
-    <title>.NET Rocks!</title>
-    <link>http://www.dotnetrocks.com</link>
+    <title>The podcast channel title</title>
+    <link>http://the.channels.url</link>
     <language>en-us</language>
-    <description>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</description>
-    <copyright>Copyright &#xA9; 2002-2018 by Pwop Productions</copyright>
-    <managingEditor>carl@franklins.net (Carl Franklin) (Carl Franklin)</managingEditor>
-    <webMaster>carl@franklins.net (Carl Franklin) (Carl Franklin)</webMaster>
+    <description>the podcast channel's description</description>
+    <copyright>Copyright &#xA9; 2002-2018 by whoever owns it</copyright>
+    <managingEditor>person@domain.url (Person's Name) (Person's Name)</managingEditor>
+    <webMaster>person@domain.url (Person's Name) (Person's Name)</webMaster>
     <rating>PG</rating>
     <pubDate>Mon, 15 Feb 2016 00:00:00 EST</pubDate>
     <lastBuildDate>Tue, 10 Jul 2018 00:00:00 EST</lastBuildDate>
-    <cloud domain="http://www.dotnetrocks.com" port="80" path="/RPC2" registerProcedure="pingMe" protocol="soap"> </cloud>
-    <atom:link href="http://www.pwop.com/feed.aspx?show=dotnetrocks&#x26;filetype=master" rel="self" type="application/rss+xml" />
+    <generator>https://somegenerator.tool/?v=3.2</generator>
+    <cloud domain="http://the.channels.url" port="80" path="/RPC2" registerProcedure="pingMe" protocol="soap"> </cloud>
+    <atom:link href="http://www.some.url/feed.aspx?show=showname&#x26;filetype=master" rel="self" type="application/rss+xml" />
     <image>
-      <url>http://www.pwop.com/itunes_dnr2.jpg</url>
-      <title>.NET Rocks!</title>
-      <link>http://www.dotnetrocks.com</link>
+      <url>http://some.url/itunes_dnr2.jpg</url>
+      <title>the image's title</title>
+      <link>http://the.channels.url</link>
       <width>144</width>
       <height>300</height>
-      <description>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</description>
+      <description>some alt text</description>
     </image>
     <category>Programming</category>
     <category>Talk</category>
@@ -29,24 +30,24 @@
     <category>ASP.NET</category>
     <category>Podcast</category>
 
-    <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:author>Carl Franklin</itunes:author>
-    <itunes:summary>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:summary>
+    <itunes:subtitle>(itunes extension)the podcast's subtitle</itunes:subtitle>
+    <itunes:explicit>(itunes extension)no</itunes:explicit>
+    <itunes:author>(itunes extension)Person's Name</itunes:author>
+    <itunes:summary>(itunes extension)the podcast's summary</itunes:summary>
     <itunes:owner>
-      <itunes:name>Carl Franklin</itunes:name>
-      <itunes:email>carl@franklins.net (Carl Franklin)</itunes:email>
+      <itunes:name>(itunes extension)Person's Name</itunes:name>
+      <itunes:email>(itunes extension)person@place.com (Person's Name)</itunes:email>
     </itunes:owner>
 
-    <itunes:image href="http://www.pwop.com/itunes_dnr2.jpg" />
-    <itunes:category text="Technology">
-      <itunes:category text="Software How-To"/>
+    <itunes:image href="(itunes extension)http://www.some.url/itunes_dnr2.jpg" />
+    <itunes:category text="(itunes extension) outer-category: Technology">
+      <itunes:category text="(itunes extension) inner-catergory: Software How-To"/>
     </itunes:category>
-    <itunes:category text="Technology">
-      <itunes:category text="Gadgets"/>
+    <itunes:category text="(itunes extension) outer-category: Technology">
+      <itunes:category text="(itunes extension) inner-catergory: Gadgets"/>
     </itunes:category>
-    <itunes:category text="Technology">
-      <itunes:category text="Software How-To"/>
+    <itunes:category text="(itunes extension) outer-category: Technology">
+      <itunes:category text="(itunes extension) inner-catergory: Software How-To"/>
     </itunes:category>
 
 

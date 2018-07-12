@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\Syncopation.Core\SampleFeeds\MasterSample.xml" Link="SampleFeeds\MasterSample.xml" />
     <Content Include="SampleFeeds\comcompod.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
