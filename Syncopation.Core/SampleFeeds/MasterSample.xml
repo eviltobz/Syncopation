@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  >
 
   <channel>
     <ttl>30</ttl>
@@ -53,19 +57,32 @@
 
 
     <item>
-      <title>Software Extensibility using Serverless Tech with Glenn Block</title>
-      <link>http://www.dotnetrocks.com/default.aspx?ShowNum=1561</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 EDT</pubDate>
-      <description>Serverless technology can extend your applications! Carl and Richard talk to Glenn Block about his work at Auth0 and building out WebHooks. Glenn talks about taking WebHooks to the next level with Extend, providing a SaaS offering for extensibility into other SaaS applications. This leads to a conversation about the architecture of extensibility in the cloud - rather than building a ton of features, let your customers extend your software the way they want!</description>
-      <source url="http://www.dotnetrocks.com/default.aspx?ShowNum=1561">.NET Rocks!</source>
-      <guid isPermaLink="true">http://www.dotnetrocks.com/default.aspx?ShowNum=1561</guid>
-      <itunes:author>Carl Franklin</itunes:author>
-      <itunes:subtitle>.NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.</itunes:subtitle>
-      <itunes:summary>Serverless technology can extend your applications! Carl and Richard talk to Glenn Block about his work at Auth0 and building out WebHooks. Glenn talks about taking WebHooks to the next level with Extend, providing a SaaS offering for extensibility into other SaaS applications. This leads to a conversation about the architecture of extensibility in the cloud - rather than building a ton of features, let your customers extend your software the way they want!</itunes:summary>
+      <title>Episode Title 1</title>
       <enclosure url="https://traffic.libsyn.com/dotnetrocks/dotnetrocks_1561_serverless_extensibility.mp3" length="70273659" type="audio/mp3" />
+      <link>http://www.some.url/webpage?episodeId</link>
+      <comments>http://www.some.url/webpage?episodeId/#comments</comments>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 EDT</pubDate>
+      <description>description for episode 1</description>
+      <source url="http://www.some.url/webpage?episodeId">link text</source>
+      <guid isPermaLink="true">some id that may be a url, but maybe not (1)</guid>
+      <category>first category</category>
+      <category>second category</category>
+      <category>third category</category>
 
-      <itunes:duration>00:55:00</itunes:duration>
+      <content:encoded>Some more description stuff for the episode</content:encoded>
+
+      <itunes:author>(itunes extension)Person's Name</itunes:author>
+      <itunes:subtitle>(itunes extension)Subtitle text for episode 1 - short bit of text</itunes:subtitle>
+      <itunes:summary>(itunes extension)Summary text for episode 1 - this seems to be the longest bit of text</itunes:summary>
+
+      <itunes:duration>(itunes extension)00:55:00</itunes:duration>
       <itunes:keywords>540238</itunes:keywords>
+
+      <itunes:explicit xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">Yes</itunes:explicit>
+      <itunes:block xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">No</itunes:block>
+      <itunes:episode xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">258</itunes:episode>
+      <itunes:episodeType xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">full</itunes:episodeType>
+      <itunes:image href="https://path.to/an.image.for.the.episode.jpg" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" />
     </item>
 
     <item>
